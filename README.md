@@ -1,7 +1,7 @@
-Import to iTunes.workflow
-=========================
+Import to iTunes
+================
 
-Useful Mac OS X service / Automator workflow which imports _new_ media into iTunes, w/o duplicating already-imported media.
+Useful Mac OS X Service which imports _new_ media into iTunes, w/o duplicating already-imported media.
 
 
 ## Installation
