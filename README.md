@@ -15,7 +15,8 @@ Right-click on any file/folder and select "Services > Import to iTunes"
 
 
 ## Caveats
-- This service skips importing files already in the active iTunes library. It does not currently prevent importing of duplicate files.
+- For larger iTunes libraries, this service can take a minute or two to deduplicate large file selections (e.g., a library with ~5000 items takes about a minute to deduplicate a selection of ~200 files)
+- This service skips importing files already in the active iTunes library. It does not currently prevent importing of duplicate files
 - The de-duplicating script (linked below) currently only imports files with one of the following file extensions:
 	- *.mov
 	- *.mp4
