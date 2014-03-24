@@ -7,7 +7,7 @@ Useful Mac OS X Service which imports _new_ media into iTunes, w/o duplicating a
 ## Installation
 1. [Download the Zip archive](https://github.com/mattlubner/Import-to-iTunes/raw/master/Import%20to%20iTunes.zip)
 2. Uncompress the archive
-3. Move the `Import to iTunes.workflow` bundle to the folder `~/Library/Services/`
+3. Open the `Import to iTunes.workflow` bundle and select "Install"
 
 
 ## Usage
