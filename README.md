@@ -1,10 +1,22 @@
-Import-to-iTunes
-================
+Import to iTunes.workflow
+=========================
 
-Useful Automator workflow that imports media into iTunes w/o
-duplicating content
+Useful Mac OS X service / Automator workflow which imports _new_ media into iTunes, w/o duplicating already-imported media.
 
 
-Download Zip Archive: https://github.com/mattlubner/Import-to-iTunes/raw/master/Import%20to%20iTunes.zip
+## Installation
+1. [Download the Zip archive](https://github.com/mattlubner/Import-to-iTunes/raw/master/Import%20to%20iTunes.zip)
+2. Uncompress the archive
+3. Move the `Import to iTunes.workflow` bundle to the folder `~/Library/Services/`
 
-See also: https://gist.github.com/mattlubner/9746041
+
+## Usage
+Right-click on any file/folder and select "Services > Import to iTunes"
+
+
+## Caveats
+This service skips importing files already in the active iTunes library. It does not currently prevent importing of duplicate files.
+
+
+## See Also
+- [Gist](https://gist.github.com/mattlubner/9746041) of the iTunes media de-duplicating shell script
