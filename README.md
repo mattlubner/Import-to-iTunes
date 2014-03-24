@@ -15,7 +15,31 @@ Right-click on any file/folder and select "Services > Import to iTunes"
 
 
 ## Caveats
-This service skips importing files already in the active iTunes library. It does not currently prevent importing of duplicate files.
+- This service skips importing files already in the active iTunes library. It does not currently prevent importing of duplicate files.
+- The de-duplicating script (linked below) currently only imports files with one of the following file extensions:
+	- *.mov
+	- *.mp4
+	- *.m4v
+	- *.mpg
+	- *.mpeg
+	- *.m2v
+	- *.mp2
+	- *.ite
+	- *.aac
+	- *.m4a
+	- *.m4b
+	- *.m4p
+	- *.mp3
+	- *.caf
+	- *.aiff
+	- *.aif
+	- *.aifc
+	- *.au
+	- *.sd2
+	- *.wav
+	- *.snd
+	- *.amr
+	- *.3ga
 
 
 ## See Also
