@@ -1,23 +1,30 @@
 Import to iTunes
 ================
 
-Useful Mac OS X Service which imports _new_ media into iTunes, w/o duplicating already-imported media.
+Handy little service for Mac OS X to import selected files (or folders) into iTunes without importing duplicates. Especially useful for manually managing iTunes media files stored on a NAS or other external device.
 
 
 ## Installation
 1. [Download the Zip archive](https://github.com/mattlubner/Import-to-iTunes/raw/master/Import%20to%20iTunes.zip)
-2. Uncompress the archive
-3. Open the `Import to iTunes.workflow` bundle and select "Install"
+2. Double-click the Zip archive to uncompress it
+3. Double-click `Import to iTunes.workflow` and choose "Install"
 
 
 ## Usage
-Right-click on any file/folder and select "Services > Import to iTunes"
+1. From a Finder window, select one or more files or folders
+2. Right-click on the selection and choose **Services > Import to iTunes**
+	- Alternatively, choose **Finder > Services > Import to iTunes**
+3. Sit back and wait! :) Automator will notify you once the process is complete
+4. All selected media files are now present in your iTunes library (sans duplications)
 
 
 ## Caveats
-- For larger iTunes libraries, this service can take a minute or two to deduplicate large file selections (e.g., a library with ~5000 items takes about a minute to deduplicate a selection of ~200 files)
-- This service skips importing files already in the active iTunes library. It does not currently prevent importing of duplicate files
-- The de-duplicating script (linked below) currently only imports files with one of the following file extensions:
+- Only tested on Mac OS X Mavericks 10.9.2
+- Doesn't prevent importing duplicate _files_
+- Works exclusively with the _active_ iTunes library
+- Can take a few minutes to find and exclude already-imported media with larger iTunes libraries
+	- For instance, it takes about a minute to process a selection of ~200 files against a library with ~5000 items
+- The selection-filtering script only imports these file types:
 	- *.mov
 	- *.mp4
 	- *.m4v
@@ -44,4 +51,4 @@ Right-click on any file/folder and select "Services > Import to iTunes"
 
 
 ## See Also
-- [Gist](https://gist.github.com/mattlubner/9746041) of the iTunes media de-duplicating shell script
+- [Shell script to exclude already-imported iTunes media from a file selection](https://gist.github.com/mattlubner/9746041)
