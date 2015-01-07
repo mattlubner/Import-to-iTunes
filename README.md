@@ -20,6 +20,7 @@ Handy little service for Mac OS X to import selected files (or folders) into iTu
 
 ## Caveats
 - Only tested on Mac OS X Mavericks 10.9.2
+	- For Mac OS X 10.8.x Mountain Lion, the "Display Notification" portion of the Automator workflow needs to be removed
 - Doesn't prevent importing duplicate _files_
 - Works exclusively with the _active_ iTunes library
 - Can take a few minutes to find and exclude already-imported media with larger iTunes libraries
